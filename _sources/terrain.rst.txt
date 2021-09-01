@@ -1,0 +1,14 @@
+Terrain
+======================================
+
+.. doxygenstruct:: simul::terrain::beaufortConstants
+   :members:
+
+.. doxygenclass:: simul::terrain::BaseWaterRenderer
+   :members:
+
+.. doxygenclass:: simul::terrain::BoundedWaterObject
+   :members:
+
+.. doxygenclass:: simul::terrain::WaterWaveletsSimulator
+  :members:
