@@ -1,7 +1,0 @@
-Sky
-======================================
-
-.. doxygenclass:: simul::sky::BaseSkyRenderer
-   :members:
-.. doxygenclass:: simul::sky::SkyKeyframer
-   :members:
