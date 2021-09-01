@@ -1,0 +1,15 @@
+Clouds
+======================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Classes:
+
+   Clouds/trueskyrenderer.rst
+   Clouds/cloudrenderer.rst
+   Clouds/baseweatherrenderer.rst
+
+.. doxygenclass:: simul::clouds::GlobalWeatherRenderer
+   :members:
+.. doxygenclass:: simul::clouds::CloudLighting
+   :members:

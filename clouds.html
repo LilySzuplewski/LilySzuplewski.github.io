@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Clouds &mdash; Simul  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="True Sky Renderer" href="Clouds/trueskyrenderer.html" />
+    <link rel="prev" title="Core" href="base.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Simul
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="API/apiindex.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="base.html">Core</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Clouds</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Clouds/trueskyrenderer.html">True Sky Renderer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Clouds/cloudrenderer.html">Cloud Renderer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Clouds/baseweatherrenderer.html">Base Weather Renderer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sky.html">Sky</a></li>
+<li class="toctree-l1"><a class="reference internal" href="terrain.html">Terrain</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plugin.html">Plugin</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Simul</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Clouds</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/clouds.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="clouds">
+<h1>Clouds<a class="headerlink" href="#clouds" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Classes:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Clouds/trueskyrenderer.html">True Sky Renderer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Clouds/cloudrenderer.html">Cloud Renderer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Clouds/baseweatherrenderer.html">Base Weather Renderer</a></li>
+</ul>
+</div>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds21GlobalWeatherRendererE">
+<span id="_CPPv3N5simul6clouds21GlobalWeatherRendererE"></span><span id="_CPPv2N5simul6clouds21GlobalWeatherRendererE"></span><span id="simul::clouds::GlobalWeatherRenderer"></span><span class="target" id="classsimul_1_1clouds_1_1_global_weather_renderer"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">simul</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">clouds</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">GlobalWeatherRenderer</span></span></span><a class="headerlink" href="#_CPPv4N5simul6clouds21GlobalWeatherRendererE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Calculates global cloud cover and weather patterns. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds21GlobalWeatherRendererD0Ev">
+<span id="_CPPv3N5simul6clouds21GlobalWeatherRendererD0Ev"></span><span id="_CPPv2N5simul6clouds21GlobalWeatherRendererD0Ev"></span><span id="simul::clouds::GlobalWeatherRenderer::~GlobalWeatherRenderer"></span><span class="target" id="classsimul_1_1clouds_1_1_global_weather_renderer_1aab24652a2b0ab09726b147a0f853811a"></span><span class="sig-name descname"><span class="n"><span class="pre">~GlobalWeatherRenderer</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds21GlobalWeatherRendererD0Ev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Destructor. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds13CloudLightingE">
+<span id="_CPPv3N5simul6clouds13CloudLightingE"></span><span id="_CPPv2N5simul6clouds13CloudLightingE"></span><span id="simul::clouds::CloudLighting"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_lighting"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">simul</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">clouds</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">CloudLighting</span></span></span><a class="headerlink" href="#_CPPv4N5simul6clouds13CloudLightingE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds13CloudLighting13CloudLightingEv">
+<span id="_CPPv3N5simul6clouds13CloudLighting13CloudLightingEv"></span><span id="_CPPv2N5simul6clouds13CloudLighting13CloudLightingEv"></span><span id="simul::clouds::CloudLighting::CloudLighting"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_lighting_1a7429172320675a93d08d459fcb0516a6"></span><span class="sig-name descname"><span class="n"><span class="pre">CloudLighting</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds13CloudLighting13CloudLightingEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Constructor. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds13CloudLightingD0Ev">
+<span id="_CPPv3N5simul6clouds13CloudLightingD0Ev"></span><span id="_CPPv2N5simul6clouds13CloudLightingD0Ev"></span><span id="simul::clouds::CloudLighting::~CloudLighting"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_lighting_1a011dfd6fd1382d52ced4061ff2d3c446"></span><span class="sig-name descname"><span class="n"><span class="pre">~CloudLighting</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds13CloudLightingD0Ev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Destructor. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds13CloudLighting20RestoreDeviceObjectsEPN13crossplatform14RenderPlatformE">
+<span id="_CPPv3N5simul6clouds13CloudLighting20RestoreDeviceObjectsEPN13crossplatform14RenderPlatformE"></span><span id="_CPPv2N5simul6clouds13CloudLighting20RestoreDeviceObjectsEPN13crossplatform14RenderPlatformE"></span><span id="simul::clouds::CloudLighting::RestoreDeviceObjects__crossplatform::RenderPlatformP"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_lighting_1a612d090981ce4124defa89c4984002d1"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">RestoreDeviceObjects</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">crossplatform</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">RenderPlatform</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">r</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds13CloudLighting20RestoreDeviceObjectsEPN13crossplatform14RenderPlatformE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Platform-dependent function called when initializing the renderer. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds13CloudLighting23InvalidateDeviceObjectsEv">
+<span id="_CPPv3N5simul6clouds13CloudLighting23InvalidateDeviceObjectsEv"></span><span id="_CPPv2N5simul6clouds13CloudLighting23InvalidateDeviceObjectsEv"></span><span id="simul::clouds::CloudLighting::InvalidateDeviceObjects"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_lighting_1a6c1d68a53f7cb57619e901cdf51b2b8d"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">InvalidateDeviceObjects</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds13CloudLighting23InvalidateDeviceObjectsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Platform-dependent function called when uninitializing the renderer. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds13CloudLighting16RecompileShadersEv">
+<span id="_CPPv3N5simul6clouds13CloudLighting16RecompileShadersEv"></span><span id="_CPPv2N5simul6clouds13CloudLighting16RecompileShadersEv"></span><span id="simul::clouds::CloudLighting::RecompileShaders"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_lighting_1a8e82fa42d95d15c2d21bb5de03a518a8"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">RecompileShaders</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds13CloudLighting16RecompileShadersEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Platform-dependent function to reload the shaders - only use this for debug purposes. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds13CloudLighting12RelightBlockERN13crossplatform13DeviceContextE4int34int34vec3R11CloudWindowR21CloudRenderingOptionsPN13crossplatform7TextureEPN13crossplatform7TextureEb">
+<span id="_CPPv3N5simul6clouds13CloudLighting12RelightBlockERN13crossplatform13DeviceContextE4int34int34vec3R11CloudWindowR21CloudRenderingOptionsPN13crossplatform7TextureEPN13crossplatform7TextureEb"></span><span id="_CPPv2N5simul6clouds13CloudLighting12RelightBlockERN13crossplatform13DeviceContextE4int34int34vec3R11CloudWindowR21CloudRenderingOptionsPN13crossplatform7TextureEPN13crossplatform7TextureEb"></span><span id="simul::clouds::CloudLighting::RelightBlock__crossplatform::DeviceContextR.int3.int3.vec3.CloudWindowR.CloudRenderingOptionsR.crossplatform::TextureP.crossplatform::TextureP.b"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_lighting_1a01d882d244b9cd6e7541c6acb091071e"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">RelightBlock</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">crossplatform</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">DeviceContext</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">deviceContext</span></span>, <span class="n"><span class="pre">int3</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">blockPos</span></span>, <span class="n"><span class="pre">int3</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">blockFill</span></span>, <span class="n"><span class="pre">vec3</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">dir_to_light</span></span>, <span class="n"><span class="pre">CloudWindow</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">cloudWindow</span></span>, <span class="n"><span class="pre">CloudRenderingOptions</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">cloudRenderingOptions</span></span>, <span class="n"><span class="pre">crossplatform</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Texture</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">cloud_texture</span></span>, <span class="n"><span class="pre">crossplatform</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Texture</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">light_texture</span></span>, <span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">init</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds13CloudLighting12RelightBlockERN13crossplatform13DeviceContextE4int34int34vec3R11CloudWindowR21CloudRenderingOptionsPN13crossplatform7TextureEPN13crossplatform7TextureEb" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Calculate the cloud lighting. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Clouds/trueskyrenderer.html" class="btn btn-neutral float-right" title="True Sky Renderer" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="base.html" class="btn btn-neutral float-left" title="Core" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2007-2021, Simul Software Ltd.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

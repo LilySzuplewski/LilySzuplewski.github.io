@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Cloud Keyframer &mdash; Simul  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Cloud Keyframe" href="cloudkeyframe.html" />
+    <link rel="prev" title="Cloud Renderer" href="cloudrenderer.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Simul
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="apiindex.html">API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="baseweatherrenderer.html">Base Weather Renderer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="environment.html">Environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cloudrenderer.html">Cloud Renderer</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Cloud Keyframer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cloudkeyframe.html">Cloud Keyframe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="skykeyframer.html">Sky Keyframer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="skykeyframe.html">Sky Keyframe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="skylight.html">Skylight</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../base.html">Core</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../clouds.html">Clouds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sky.html">Sky</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../terrain.html">Terrain</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plugin.html">Plugin</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Simul</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="apiindex.html">API</a> &raquo;</li>
+        
+      <li>Cloud Keyframer</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/API/cloudkeyframer.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="cloud-keyframer">
+<h1>Cloud Keyframer<a class="headerlink" href="#cloud-keyframer" title="Permalink to this headline">¶</a></h1>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds14CloudKeyframerE">
+<span id="_CPPv3N5simul6clouds14CloudKeyframerE"></span><span id="_CPPv2N5simul6clouds14CloudKeyframerE"></span><span id="simul::clouds::CloudKeyframer"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_keyframer"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">simul</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">clouds</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">CloudKeyframer</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><span class="n"><span class="pre">simul</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">sky</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">OvercastCallback</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><span class="n"><span class="pre">simul</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">sky</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">BaseKeyframer</span></span><a class="headerlink" href="#_CPPv4N5simul6clouds14CloudKeyframerE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>A class to manage interpolation between cloud states over time. Typically, a <a class="reference internal" href="#classsimul_1_1clouds_1_1_cloud_keyframer"><span class="std std-ref">CloudKeyframer</span></a> is created and updated by its <a class="reference internal" href="environment.html#classsimul_1_1clouds_1_1_environment"><span class="std std-ref">Environment</span></a>.</p>
+<p>If time and daytime are linked in the SkyKeyframer, time is in days, otherwise the timescale is in arbitrary units. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds14CloudKeyframer14InsertKeyframeEf">
+<span id="_CPPv3N5simul6clouds14CloudKeyframer14InsertKeyframeEf"></span><span id="_CPPv2N5simul6clouds14CloudKeyframer14InsertKeyframeEf"></span><span id="simul::clouds::CloudKeyframer::InsertKeyframe__float"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_keyframer_1a68911f0464f29082f82f22b96a49005c"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><a class="reference internal" href="cloudkeyframe.html#_CPPv4N5simul6clouds13CloudKeyframeE" title="simul::clouds::CloudKeyframe"><span class="n"><span class="pre">CloudKeyframe</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">InsertKeyframe</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">t</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">override</span></span><a class="headerlink" href="#_CPPv4N5simul6clouds14CloudKeyframer14InsertKeyframeEf" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Insert a new keyframe at time t, sorting in between the existing keyframes if needed, and return a pointer to it. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds14CloudKeyframer14DeleteKeyframeEi">
+<span id="_CPPv3N5simul6clouds14CloudKeyframer14DeleteKeyframeEi"></span><span id="_CPPv2N5simul6clouds14CloudKeyframer14DeleteKeyframeEi"></span><span id="simul::clouds::CloudKeyframer::DeleteKeyframe__i"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_keyframer_1a89272c6d58ee56562ee0e8faf29aaa0a"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">DeleteKeyframe</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">i</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5simul6clouds14CloudKeyframer14DeleteKeyframeEi" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Remove a keyframe. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5simul6clouds14CloudKeyframer11GetKeyframeEi">
+<span id="_CPPv3N5simul6clouds14CloudKeyframer11GetKeyframeEi"></span><span id="_CPPv2N5simul6clouds14CloudKeyframer11GetKeyframeEi"></span><span id="simul::clouds::CloudKeyframer::GetKeyframe__i"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_keyframer_1adb6e12f5980316674354355eb4d3b708"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">sky</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">BaseKeyframe</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">GetKeyframe</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">i</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">override</span></span><a class="headerlink" href="#_CPPv4N5simul6clouds14CloudKeyframer11GetKeyframeEi" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Get a pointer to the keyframe with the given ID. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5simul6clouds14CloudKeyframer11GetKeyframeEi">
+<span id="_CPPv3NK5simul6clouds14CloudKeyframer11GetKeyframeEi"></span><span id="_CPPv2NK5simul6clouds14CloudKeyframer11GetKeyframeEi"></span><span id="simul::clouds::CloudKeyframer::GetKeyframe__iC"></span><span class="target" id="classsimul_1_1clouds_1_1_cloud_keyframer_1aaaae27b2b905063ec5945e3f92860e7e"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">sky</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">BaseKeyframe</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">GetKeyframe</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">i</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">override</span></span><a class="headerlink" href="#_CPPv4NK5simul6clouds14CloudKeyframer11GetKeyframeEi" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Get a pointer to the i’th keyframe. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="cloudkeyframe.html" class="btn btn-neutral float-right" title="Cloud Keyframe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cloudrenderer.html" class="btn btn-neutral float-left" title="Cloud Renderer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2007-2021, Simul Software Ltd.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
