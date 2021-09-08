@@ -7,11 +7,11 @@ Below is a list of classes and their most important functions/variables. They ha
    :maxdepth: 2
    :Caption: API
 
-   baseweatherrenderer.rst
-   environment.rst
-   cloudrenderer.rst
-   cloudkeyframer.rst
-   cloudkeyframe.rst
-   skykeyframer.rst
-   skykeyframe.rst
-   skylight.rst
+   apibaseweatherrenderer.rst
+   apienvironment.rst
+   apicloudrenderer.rst
+   apicloudkeyframer.rst
+   apicloudkeyframe.rst
+   apiskykeyframer.rst
+   apiskykeyframe.rst
+   apiskylight.rst

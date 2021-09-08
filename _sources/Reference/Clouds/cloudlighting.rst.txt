@@ -1,0 +1,5 @@
+Cloud Lighting
+======================================
+
+.. doxygenstruct:: simul::clouds::CloudLighting
+   :members:
